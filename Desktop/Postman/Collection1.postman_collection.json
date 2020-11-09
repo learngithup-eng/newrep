@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "3d1baa07-2451-4a52-8279-02ff85a2eaea",
+		"name": "Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "GETUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/{{page}}",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"{{page}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GETUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://reqres.in/api/users/2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 07 Nov 2020 05:33:44 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "__cfduid=d659540951a5ef6acb69797c579e90fee1604727224; expires=Mon, 07-Dec-20 05:33:44 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=14400"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "HIT"
+								},
+								{
+									"key": "Age",
+									"value": "498"
+								},
+								{
+									"key": "cf-request-id",
+									"value": "0642cb51a30000ee89be84e000000001"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=8D5CaZ6UevYRmKsPrIK5QShPB4diEWN3RVqVPeTFWIXTItJPW1b1oClq6nehUAF%2FulcMP375%2BpPok%2FeM4ZLwP3dla65PHVzXnxk%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "5ee4ae6299a2ee89-CDG"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": 2,\n        \"email\": \"janet.weaver@reqres.in\",\n        \"first_name\": \"Janet\",\n        \"last_name\": \"Weaver\",\n        \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"\n    },\n    \"ad\": {\n        \"company\": \"StatusCode Weekly\",\n        \"url\": \"http://statuscode.org/\",\n        \"text\": \"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "GETUserList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GETUserList",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://reqres.in/api/users?page=2",
+									"protocol": "https",
+									"host": [
+										"reqres",
+										"in"
+									],
+									"path": [
+										"api",
+										"users"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sat, 07 Nov 2020 05:58:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0\""
+								},
+								{
+									"key": "Via",
+									"value": "1.1 vegur"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=14400"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "HIT"
+								},
+								{
+									"key": "Age",
+									"value": "6413"
+								},
+								{
+									"key": "cf-request-id",
+									"value": "0642e25202000033248b8bf000000001"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=LykFrUXXGTKk%2Bp5f7v6B8t8u1uFy81hw%2BKdf%2Fx%2FLq92MDolnbqTgETBYslNfJm0Jr%2Fruhgyz6fUsFDeoBbWEDbmIvk3xedYwPjU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "5ee4d3300f8f3324-CDG"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"page\": 2,\n    \"per_page\": 6,\n    \"total\": 12,\n    \"total_pages\": 2,\n    \"data\": [\n        {\n            \"id\": 7,\n            \"email\": \"michael.lawson@reqres.in\",\n            \"first_name\": \"Michael\",\n            \"last_name\": \"Lawson\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg\"\n        },\n        {\n            \"id\": 8,\n            \"email\": \"lindsay.ferguson@reqres.in\",\n            \"first_name\": \"Lindsay\",\n            \"last_name\": \"Ferguson\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg\"\n        },\n        {\n            \"id\": 9,\n            \"email\": \"tobias.funke@reqres.in\",\n            \"first_name\": \"Tobias\",\n            \"last_name\": \"Funke\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg\"\n        },\n        {\n            \"id\": 10,\n            \"email\": \"byron.fields@reqres.in\",\n            \"first_name\": \"Byron\",\n            \"last_name\": \"Fields\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg\"\n        },\n        {\n            \"id\": 11,\n            \"email\": \"george.edwards@reqres.in\",\n            \"first_name\": \"George\",\n            \"last_name\": \"Edwards\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg\"\n        },\n        {\n            \"id\": 12,\n            \"email\": \"rachel.howell@reqres.in\",\n            \"first_name\": \"Rachel\",\n            \"last_name\": \"Howell\",\n            \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg\"\n        }\n    ],\n    \"ad\": {\n        \"company\": \"StatusCode Weekly\",\n        \"url\": \"http://statuscode.org/\",\n        \"text\": \"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "ListReSource",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "UpdateUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": {\r\n        \"id\": 2,\r\n        \"email\": \"janet.weaver@reqres.in\",\r\n        \"first_name\": \"Pooja\",\r\n        \"last_name\": \"Sawant\",\r\n        \"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"\r\n    },\r\n    \"ad\": {\r\n        \"company\": \"StatusCode Weekly\",\r\n        \"url\": \"http://statuscode.org/\",\r\n        \"text\": \"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2?id=5",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "POST (Authorization)",
+			"item": [
+				{
+					"name": "Craeatuser1",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"value": "{{token}}",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Postman Authentication3\",\r\n    \"description\": \"This is your first repository\",\r\n    \"homepage\": \"https://github.com\",\r\n    \"private\": false,\r\n    \"has_issues\": true,\r\n    \"has_projects\": true,\r\n    \"has_wiki\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.github.com/user/repos",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"user",
+								"repos"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

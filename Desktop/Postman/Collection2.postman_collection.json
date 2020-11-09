@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "fd4bfbe0-69c4-43e5-9655-0f176edd433d",
+		"name": "Collection2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ListEmp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/employee/1",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateEmp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"pooja sawant\",\r\n    \"salary\": \"3000\",\r\n    \"age\": \"23\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/create",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"test3\",\r\n    \"salary\": \"456\",\r\n    \"age\": \"23\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/update/21",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"update",
+						"21"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

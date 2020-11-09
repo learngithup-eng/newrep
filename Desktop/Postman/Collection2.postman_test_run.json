@@ -1,0 +1,84 @@
+{
+	"id": "3fca062f-ae3d-430c-84d9-29e16db8f3a0",
+	"name": "Collection2",
+	"timestamp": "2020-11-09T14:57:13.518Z",
+	"collection_id": "fd4bfbe0-69c4-43e5-9655-0f176edd433d",
+	"folder_id": 0,
+	"environment_id": "62744690-3164-4e64-bcb5-558477b4c6c6",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a7cca2d5-625b-4c8d-85e3-ebd8623028bf",
+			"name": "ListEmp",
+			"url": "http://dummy.restapiexample.com/api/v1/employee/1",
+			"time": 1965,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1965
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "109a5e18-3738-4c11-a84c-e864e874e60f",
+			"name": "CreateEmp",
+			"url": "http://dummy.restapiexample.com/api/v1/create",
+			"time": 1116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1116
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "239e570d-1bf2-433d-8546-db7199e5b779",
+			"name": "UpdateUser",
+			"url": "http://dummy.restapiexample.com/api/v1/update/21",
+			"time": 1243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1243
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4324,
+	"collection": {
+		"requests": [
+			{
+				"id": "a7cca2d5-625b-4c8d-85e3-ebd8623028bf",
+				"method": "GET"
+			},
+			{
+				"id": "109a5e18-3738-4c11-a84c-e864e874e60f",
+				"method": "POST"
+			},
+			{
+				"id": "239e570d-1bf2-433d-8546-db7199e5b779",
+				"method": "PUT"
+			}
+		]
+	}
+}
